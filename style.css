@@ -1,0 +1,35 @@
+h2{
+    font-family: Sans-serif; 
+    font-size: 30px;     
+    font-style: normal; 
+    font-weight: bold; 
+    color: red;
+    text-align: center; 
+   }
+   table{
+    font-family: verdana; 
+    color: black; 
+    font-size: 25px; 
+    font-style: normal;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);  
+    border-collapse: collapse; 
+    border: 4px solid #000000;
+    border-style: dashed;
+   }
+   table.inner{
+    border: 20px
+   }
+   input[type=text],
+   input[type=email], 
+   input[type=number]
+   {
+    width: 60%;
+    padding: 8px 16px;
+    margin: 5px 0;
+    box-sizing: border-box;
+   }
+   input[type="email"]:hover, input[type="text"]:hover, input[type="password"]:hover,
+   input[type="text"]:hover{
+     box-shadow: 8px 8px 10px 2px  pink;
+   }
